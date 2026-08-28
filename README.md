@@ -1,6 +1,6 @@
 # Network Design — Cisco Packet Tracer Final Project
 
-Final project for **Retele (Computer Networks) 2024–2025**: a routed, multi-LAN network
+Final project for **Computer Networks**: a routed, multi-LAN network
 built in Cisco Packet Tracer from a single assigned `/24`, split with **VLSM** so that every
 subnet — including the point-to-point links between routers — is the smallest size that fits.
 
