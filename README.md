@@ -119,9 +119,9 @@ graph TB
     SW2 --- WEB & PC3 & PC4
     SW3 --- DNS & PC5 & PC6
     SW4 --- AP & PC7 & PC8
-    AP -.-|wireless| LAP
+    AP -.->|wireless| LAP
     SW5 --- PC9 & PC10
-    R6 -.-|wireless| PC11 & PHONE
+    R6 -.->|wireless| PC11 & PHONE
 
     classDef rtr fill:#1e3a5f,stroke:#0d1b2a,color:#fff
     classDef pc fill:#e8eef4,stroke:#8fa6bd,color:#1a1a1a
