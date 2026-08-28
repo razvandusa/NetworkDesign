@@ -231,33 +231,6 @@ Router# copy running-config startup-config
 
 ---
 
-## Requirements checklist
-
-The grading breakdown from the course page, and where each item is realised:
-
-| Requirement | Pts | Where |
-|---|---|---|
-| Network design | 0.25 | Topology above |
-| Correct cabling | 0.25 | `.pkt` file |
-| Splitting the assigned IP domain into subclasses | 0.5 | [Addressing plan](#addressing-plan-vlsm) |
-| Static IP assignment | 0.5 | Servers, router interfaces |
-| DHCP-assigned IPs | 0.75 | DHCP server in N1 |
-| Correct default gateways | 0.75 | First usable address of each subnet |
-| Pinging devices on another physical network | 0.5 | End-to-end via RIP |
-| Correct route configuration (RIP; half credit for static) | 1 | RIPv2 on R1–R5 |
-| DNS server configured and used | 1 | DNS server in N3 |
-| WEB server reachable from any machine | 1.5 | WEB server in N2, resolved by name |
-| Minimum-size IP classes for inter-router links | 1.25 | Six `/30`s, `.184` – `.207` |
-| NAT in one network | 0.75 | R6, wireless LAN |
-| Able to explain any implementation detail on request | 1 | This document |
-| **Total** | **10** | |
-
-**Mini-bonus:** a trunk link between two switches serving a real purpose; port forwarding for
-the web server.
-**Bonus:** a router with a single cable/port carrying multiple VLANs (router-on-a-stick).
-
----
-
 ## Repository contents
 
 | File | Description |
