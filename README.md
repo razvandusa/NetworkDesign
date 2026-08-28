@@ -1,6 +1,6 @@
-# Network Design — Cisco Packet Tracer Final Project
+# Network Design — Cisco Packet Tracer
 
-Final project for **Computer Networks**: a routed, multi-LAN network
+A routed, multi-LAN network
 built in Cisco Packet Tracer from a single assigned `/24`, split with **VLSM** so that every
 subnet — including the point-to-point links between routers — is the smallest size that fits.
 
